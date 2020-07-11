@@ -1,0 +1,78 @@
+{
+  "main": {
+    "id": "6c5b4de643a1f46d",
+    "type": "split",
+    "children": [
+      {
+        "id": "da3480b81e6efe87",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Liberal_Arts_Engineering/Math/Stat/Statistics.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "318756e1a599bb40",
+    "type": "split",
+    "children": [
+      {
+        "id": "632009781acb5103",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c040c713e7a13c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "310b70ce2655e77d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "16c30165ba6e2626",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fe14af8618dc254",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6914d1404243a02d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Liberal_Arts_Engineering/Math/Stat/Statistics.md",
+    "Liberal_Arts_Engineering/Quantum Computation/Hardware.md"
+  ]
+}
