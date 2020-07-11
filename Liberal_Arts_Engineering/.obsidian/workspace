@@ -1,0 +1,78 @@
+{
+  "main": {
+    "id": "df1c459bc346e443",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddde6be579113012",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31b4fa5f4ddbc14f",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb9640a5a0f75b0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df6d4b1b14e542e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a76ad490b0c0fec5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6c457271f800d92e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b230f6f3460324b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23d22a8002482c2d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Quantum Computation/Hardware.md",
+    "Quantum Computation/Untitled.md",
+    "Untitled.md",
+    "Math/Stat/Statistics.md",
+    "exepectation.md"
+  ]
+}
