@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "da3480b81e6efe87",
+        "id": "c1bb624760f96a39",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Liberal_Arts_Engineering/Math/Stat/Statistics.md",
+            "file": "Untitled.md",
             "mode": "source"
           }
         }
@@ -72,7 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Liberal_Arts_Engineering/Math/Stat/Statistics.md",
-    "Liberal_Arts_Engineering/Quantum Computation/Hardware.md"
+    "Untitled.md",
+    "Liberal_Arts_Engineering/Quantum Computation/Hardware.md",
+    "2020-07-12.md",
+    "Liberal_Arts_Engineering/Quantum Computation/quantum algorithm.md",
+    "quantum language.md"
   ]
 }
