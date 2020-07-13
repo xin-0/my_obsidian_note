@@ -4,16 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "c1bb624760f96a39",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Untitled.md",
-            "mode": "source"
+        "id": "d2d56c538b1cedd7",
+        "type": "split",
+        "children": [
+          {
+            "id": "c1bb624760f96a39",
+            "type": "leaf",
+            "dimension": 50.09416195856874,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2020-07-13.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "496cb31894209ca2",
+            "type": "leaf",
+            "dimension": 49.90583804143126,
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2020-07-13.md",
+                "mode": "preview"
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -46,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 205
   },
   "right": {
     "id": "16c30165ba6e2626",
@@ -72,10 +92,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Daily Notes/2020-07-13.md",
+    "Liberal_Arts_Engineering/Computer Engineering/Untitled.md",
+    "Liberal_Arts_Engineering/Statistics/Untitled.md",
     "Untitled.md",
-    "Liberal_Arts_Engineering/Quantum Computation/Hardware.md",
-    "2020-07-12.md",
-    "Liberal_Arts_Engineering/Quantum Computation/quantum algorithm.md",
-    "quantum language.md"
+    "Liberal_Arts_Engineering/Quantum Computation/Hardware.md"
   ]
 }

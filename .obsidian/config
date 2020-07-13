@@ -13,5 +13,6 @@
     "Slides": false
   },
   "attachmentFolderPath": "Liberal_Arts_Engineering/Math/Stat",
-  "foldHeading": true
+  "foldHeading": true,
+  "foldIndent": true
 }
