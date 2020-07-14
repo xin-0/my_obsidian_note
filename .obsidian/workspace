@@ -4,27 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "c1bb624760f96a39",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Markdown example.md",
-            "mode": "source"
+        "id": "ba1e7c805f8fb8b3",
+        "type": "split",
+        "children": [
+          {
+            "id": "c1bb624760f96a39",
+            "type": "leaf",
+            "dimension": 57.00483091787439,
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Liberal_Arts_Engineering/Math/Linear Algebra Summary.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "c17e2fd2caae247c",
+            "type": "leaf",
+            "dimension": 42.8341384863124,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Liberal_Arts_Engineering/Math/Linear Algebra Summary.md",
+                "mode": "preview"
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "87c8f418f68012c8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Markdown example.md",
-            "mode": "preview"
-          }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -57,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205
+    "width": 215
   },
   "right": {
     "id": "16c30165ba6e2626",
@@ -83,10 +92,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Liberal_Arts_Engineering/Math/Linear Algebra Summary.md",
+    "Liberal_Arts_Engineering/Math/Untitled.md",
+    "Liberal_Arts_Engineering/Math/Complex number.md",
     "Daily Notes/2020-07-14.md",
-    "Daily Notes/2020-07-13.md",
-    "Liberal_Arts_Engineering/Computer Engineering/Untitled.md",
-    "Liberal_Arts_Engineering/Statistics/Untitled.md",
-    "Untitled.md"
+    "Daily Notes/2020-07-13.md"
   ]
 }
