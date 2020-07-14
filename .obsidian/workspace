@@ -4,36 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "d2d56c538b1cedd7",
-        "type": "split",
-        "children": [
-          {
-            "id": "c1bb624760f96a39",
-            "type": "leaf",
-            "dimension": 50.09416195856874,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2020-07-13.md",
-                "mode": "source"
-              }
-            }
-          },
-          {
-            "id": "496cb31894209ca2",
-            "type": "leaf",
-            "dimension": 49.90583804143126,
-            "active": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2020-07-13.md",
-                "mode": "preview"
-              }
-            }
+        "id": "c1bb624760f96a39",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Markdown example.md",
+            "mode": "source"
           }
-        ],
-        "direction": "horizontal"
+        }
+      },
+      {
+        "id": "87c8f418f68012c8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Markdown example.md",
+            "mode": "preview"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -92,10 +83,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Daily Notes/2020-07-14.md",
     "Daily Notes/2020-07-13.md",
     "Liberal_Arts_Engineering/Computer Engineering/Untitled.md",
     "Liberal_Arts_Engineering/Statistics/Untitled.md",
-    "Untitled.md",
-    "Liberal_Arts_Engineering/Quantum Computation/Hardware.md"
+    "Untitled.md"
   ]
 }
