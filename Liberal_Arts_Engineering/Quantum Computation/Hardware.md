@@ -2,24 +2,27 @@
 
 ## Building Blocks of a Quantum Computer
 ### Intro
-Key Ideas:
+#### Key Ideas
 * Build a [[Quantum Accelerator]], a computational add-on to the classical computers to exceed current performance.
 * Heterogeneous multicore architecture:
 	* Field Programmable Gate Array
 	* Graphics Programming Unit (GPU)
 	* quantum co-processor
-* Building Blocks:
-	[[Quantum Algorithm]]
-	|
-	[[Quantum Language]]
-	|
-	[[Q Arithmetic]], [[Q Compiler]]
-	|
-	[[Q instruction Set Architect]]
-	|
-	[[Microarchitecture]]
-	|
-	[[Quantum to Classical]]
-	|
-	[[Quantum Chip]]
+
+#### Building Blocks
+[[Quantum Algorithm]]
+|
+[[Quantum Language]]
+|
+[[Q Arithmetic]], [[Q Compiler]]
+|
+[[Q instruction Set Architect]]
+|
+[[Microarchitecture]]
+|
+[[Quantum to Classical]]
+|
+[[Quantum Chip]]
+
+
 	
