@@ -5,10 +5,11 @@
 3. Every observable is represented by eigenvalues of a Hermitian oprator in Hilbert Space
 4. Quantum operations and time evolution of a quantum state are represented by unitary operator on the Hilbert 
 	- consequence of Schordinger's Equation
+5. 
 
 
-# notation and computation:
-## Basic:
+# notation and computation
+## Basic
 $\mid\psi\rangle=v\in\Bbb {C} ^n$, $\mid\phi\rangle=w\in\Bbb {C} ^n$
 - $\langle\psi\mid = \mid\psi\rangle^\dagger=v^\dagger$
 - inner product: $\langle\psi\mid\phi\rangle=v^\dagger w$
@@ -25,5 +26,25 @@ Harmonic Oscillator:
 $$U=\sum_k{\mid\psi_k\rangle\langle k\mid}$$
 
 
-2. readout $\equiv$ measurement operators $\equiv$ Hermitians
+2. readout $\equiv$ measurement operators $\equiv$ [[Hermitian]]
 $$A=\sum_k{r_k\mid\psi_k\rangle\langle \psi_k\mid},\quad r_k\in\Bbb R$$
+
+3. average experimental outcome $\equiv$ Probability [[Expectation]] $\equiv$ "sandwich" operator
+$$\langle\phi\mid A\mid\phi\rangle=\sum _kr_k\vert\langle\psi_k\mid\phi\rangle\vert^2$$
+
+## Some Unitaries
+* $X= \begin{bmatrix}0&1\\1&0\end{bmatrix}$
+* [[Hadamard Gate]]
+* [[Phase Gate]] 
+* [[Pauli Z Gate]]
+
+## [[Bloch Sphere]]
+* $\mid\psi\rangle=\cos(\theta)\mid0\rangle+\sin(\theta)e^{i\phi}\mid1\rangle$
+* unitary operations rotate the sphere
+
+
+## Multi-qubit states & operations
+Kronecker Products:
+$$A\otimes B$$
+
+- $(A\otimes B)(C\otimes D)=(AC)\otimes(BD)$
