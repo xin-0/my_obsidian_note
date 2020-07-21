@@ -15,14 +15,18 @@ $\mid\psi\rangle=v\in\Bbb {C} ^n$, $\mid\phi\rangle=w\in\Bbb {C} ^n$
 - inner product: $\langle\psi\mid\phi\rangle=v^\dagger w$
 - Measure $\mid\psi\rangle$ in $\mid\phi\rangle$: yields$\mid\phi\rangle$ with probability $\vert \langle\psi\mid\phi\rangle\vert^2$
 
-## Hamiltonian
+## [[Hamiltonian]]
+$\equiv$ __bais__
 Harmonic Oscillator: 
 - $H=\sum_k{E_k\mid\psi_k\rangle\langle\psi_k\mid}$
 - $\langle\psi_j\mid\psi_k\rangle=\delta_{j,k}$ --> Orthonormal
 - $\{\mid\psi_k\rangle\}$ form a basis of infinite dimension $\mid\psi_k\rangle$ -->$\mid k\rangle$
 
+Z-basis:
+- $Z=\mid0\rangle\langle0\mid+\mid1\rangle\langle1\mid$
+
 ## Operations & Observables
-1. logic gates $\equiv$ unitary matrices $\equiv$ change of basis:
+1. logic gates $\equiv$ [[Unitary]] matrices $\equiv$ change of basis:
 $$U=\sum_k{\mid\psi_k\rangle\langle k\mid}$$
 
 
@@ -48,3 +52,11 @@ Kronecker Products:
 $$A\otimes B$$
 
 - $(A\otimes B)(C\otimes D)=(AC)\otimes(BD)$
+
+## State Decomposition
+To convert a state $\mid\phi\rangle$ into $\{\mid\psi_k\rangle, k=0,1,...\}$ basis:
+$$\mid\phi\rangle=\sum_k{\langle\psi_k\mid\phi\rangle\mid\psi_k\rangle}$$
+
+ ### Remarks
+ - measurement in lab vs measurement in theory:
+	 - 
