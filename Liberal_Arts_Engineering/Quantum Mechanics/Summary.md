@@ -58,5 +58,4 @@ To convert a state $\mid\phi\rangle$ into $\{\mid\psi_k\rangle, k=0,1,...\}$ bas
 $$\mid\phi\rangle=\sum_k{\langle\psi_k\mid\phi\rangle\mid\psi_k\rangle}$$
 
  ### Remarks
- - measurement in lab vs measurement in theory:
-	 - 
+ - measurement in lab vs measurement in theory
