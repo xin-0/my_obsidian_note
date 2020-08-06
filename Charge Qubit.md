@@ -16,5 +16,10 @@ a specific type of charge qubit
 	- confined the number of energy levels of LC oscillator to 2
 - In a transmon, the inductance is provided by a Josephson junction and not by a typical coil inductor. This disrupts the harmonic energy spectrum and helps confine the system to two levels.
 
-### Operations on Transmon
-- requires [[Transmission-Line Resonator]]
+### [[Operation on Qubits]]- Transmon
+To perform operations on transmon, it requires [[Transmission-Line Resonator]] to form a [[Circuit QED]] such that the qubit can interact with outside world.
+
+- __Readout__:
+	- 
+- __coupling__:
+	- two qubits couple through a common resonator
