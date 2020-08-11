@@ -1,4 +1,4 @@
-#QuantumMechanic #ModelRealityCorrelation 
+#Quantum_Mechanic #Model_Reality_Correlation 
 
 ## Postulate 1
 Key idea: State Space in Math <--> Physical World
