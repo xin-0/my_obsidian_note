@@ -39,4 +39,5 @@ $$\begin{align}
 	   & = \langle\psi\mid \sum_m mP_m\mid\psi\rangle \\
 	   & = \langle\psi\mid M\mid\psi\rangle
   \end{align}$$
-
+  - Thus $\langle\psi\mid M\mid\psi\rangle$ is often written as $\langle M\rangle$
+2. Stan
