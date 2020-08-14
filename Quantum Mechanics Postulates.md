@@ -16,10 +16,10 @@ Key idea: how quantum mechanical systems evolve in time
 > where $U$ only depends on $t_1$ and $t_2$.
 
 ### Remark:
-- $U$ can be any unitary that can be realized in realistic systems, e.g.:
+1.  $U$ can be any unitary that can be realized in realistic systems, e.g.:
 	- [[Pauli Matrices]]
 	- [[Hadamard Gate]]
-- "Closed": it is not insteracting with other systems
+2.  "Closed": it is not insteracting with other systems
 
 __Revied Version__ of Postulate 2: for _continuous time_
 > A closed quantum system evolve in time according to Schrödinger equation,
