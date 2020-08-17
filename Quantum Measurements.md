@@ -28,16 +28,26 @@ $m:$ possible outcomes of the observable
 Probability of getting result $m$ by measuring on sate $\mid\psi\rangle$:
 $$p(m)=\langle\psi\mid P_m\mid\psi\rangle$$
 
-The state immediately after the measurement is:
+Given that outcome $m$ occured, the state immediately after the measurement is:
 $${P_m\mid\psi\rangle\over \sqrt {p(m)}}$$
+
+Remark:
+1. When measurement in postulate, in addition to satisfying $\sum_m{M_m^\dagger M_m=I}$, also satisfy that $M_m$ are orthognal projectors, i.e. $M_m$ are Hermitian. Postulate reduce to a projective measurement.
 
 __Properties__:
 1. Expectation easily calculate:
-$$\begin{align} 
+	$$\begin{align} 
   E(M) & = \sum_m{mp(m)} \\
        & = \sum_m{m\langle\psi\mid P_m\mid\psi\rangle} \\
 	   & = \langle\psi\mid \sum_m mP_m\mid\psi\rangle \\
 	   & = \langle\psi\mid M\mid\psi\rangle
   \end{align}$$
-  - Thus $\langle\psi\mid M\mid\psi\rangle$ is often written as $\langle M\rangle$
-2. Stan
+  	Thus $\langle\psi\mid M\mid\psi\rangle$ is often written as $\langle M\rangle$  
+1. Standard Deviation:
+	Genera Case:
+	$$\begin{align}
+	[\Delta (M)]^2 & = \langle (M-\langle M \rangle)^2\rangle \\
+				   & = \langle M^2 \rangle - \langle M \rangle^2
+	\end{align}$$
+### POVM measurements
+Positive Operator-Valued Measure, a math tool. Useful for experiments where the systems are only measured for once and we don't care about the post state.
