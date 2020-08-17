@@ -1,3 +1,4 @@
+## Connection
 Connect two linux by ether cable:
 
 1. Connect two with cable
@@ -14,3 +15,18 @@ Connect two linux by ether cable:
 	
 Connect PC2 from PC1 using:
 `ssh usr@192.168.80.xx(PC2)`
+
+## File transfer
+Use `scp `
+1. From server to home, file
+	```
+	$ scp <server-name>@<server-ip>:<file-dir> <home-dir>
+	```
+1. From home to server, file
+	```
+	$ scp <home-file-dir> <server-name>@<server-ip>:<dir>
+	```
+1. folder
+	```
+	$ scp -r 
+	```
