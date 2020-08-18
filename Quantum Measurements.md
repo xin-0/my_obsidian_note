@@ -51,3 +51,6 @@ __Properties__:
 	\end{align}$$
 ### POVM measurements
 Positive Operator-Valued Measure, a math tool. Useful for experiments where the systems are only measured for once and we don't care about the post state.
+_Def:_
+- positive mastrix
+- adds to $I$
