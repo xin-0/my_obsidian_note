@@ -19,7 +19,8 @@
 $$M_0=\mid0\rangle\langle0\mid,M_1=\mid1\rangle\langle1\mid$$
 
 ## Measurements
-### Projective measurements
+### - Projective measurements
+---
 projective measurement is described by an observable, $M$, a [[Hermitian]] operator on the state space of the system being observed. The observable has a spectral decomposition,
 $$M=\sum_m{mP_m}$$
 $P_m:$ projector onto the eigenspace of $M$ with eigenvalue $m$
@@ -31,10 +32,10 @@ $$p(m)=\langle\psi\mid P_m\mid\psi\rangle$$
 Given that outcome $m$ occured, the state immediately after the measurement is:
 $${P_m\mid\psi\rangle\over \sqrt {p(m)}}$$
 
-Remark:
+#### Remark:
 1. When measurement in postulate, in addition to satisfying $\sum_m{M_m^\dagger M_m=I}$, also satisfy that $M_m$ are orthognal projectors, i.e. $M_m$ are Hermitian. Postulate reduce to a projective measurement.
 
-__Properties__:
+#### Properties:
 1. Expectation easily calculate:
 	$$\begin{align} 
   E(M) & = \sum_m{mp(m)} \\
@@ -49,7 +50,14 @@ __Properties__:
 	[\Delta (M)]^2 & = \langle (M-\langle M \rangle)^2\rangle \\
 				   & = \langle M^2 \rangle - \langle M \rangle^2
 	\end{align}$$
-### POVM measurements
+#### Spin measurement along axis $\vec v$:
+$\vec v$ is a three-dimensional unit vector, the measurement operator is:
+$$\vec v \vec \sigma=v_1 \sigma_1+v_2 \sigma_2+v_3 \sigma_3$$
+where $\sigma_1, \sigma_2,\sigma_3$ are [[Pauli Matrices]]
+<br/>
+
+### - POVM measurements
+---
 Positive Operator-Valued Measure, a math tool. Useful for experiments where the systems are only measured for once and we don't care about the post state.
 _Def:_
 - positive mastrix
