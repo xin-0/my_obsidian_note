@@ -8,15 +8,21 @@
 > 3. The measurement operators satisfy the [[Completeness Relation|completeness equation]]:
 > $$\sum_m {M_m^\dagger M_m}=I$$
 
+<br/>
+<br/>
+
 ## Remark
 1. the completeness equation express the fact that:
 	$$1=p(m)=\sum_m{\langle\psi\mid M_m^\dagger M_m\mid\psi\rangle}$$
 2. Since a measurement device is a larger quantum mechanical system, some argues that Postulate 3 can be derived from Postualte 2. The [[Quantum Mechanics Unsolved Questions|disagreement]] remains unsettled.
-	
-	
+<br/>
+<br/>
 ## Examples
 1. measurement in computational basis:
 $$M_0=\mid0\rangle\langle0\mid,M_1=\mid1\rangle\langle1\mid$$
+
+<br/>
+<br/>
 
 ## Measurements
 ### - Projective measurements
@@ -55,9 +61,9 @@ $\vec v$ is a three-dimensional unit vector, the measurement operator is:
 $$\vec v \vec \sigma=v_1 \sigma_1+v_2 \sigma_2+v_3 \sigma_3$$
 where $\sigma_1, \sigma_2,\sigma_3$ are [[Pauli Matrices]]
 <br/>
+<br/>
+##  POVM
 
-### - POVM measurements
----
 Positive Operator-Valued Measure, a math tool. Useful for experiments where the systems are only measured for once and we don't care about the post state.
 _Def:_
 - positive mastrix
