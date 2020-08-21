@@ -7,7 +7,8 @@ Key idea: State Space in Math <--> Physical World
 ### Remark:
 - Qubit is a math object.
 - we need such postulate since QM does not tell us the state space of the system.
-
+<br/>
+<br/>
 
 ## Postulate 2
 Key idea: how quantum mechanical systems evolve in time
@@ -25,6 +26,18 @@ __Revied Version__ of Postulate 2: for _continuous time_
 > A closed quantum system evolve in time according to Schrödinger equation,
 > $$i\hbar{d\mid\psi\rangle\over dt}=H\mid\psi\rangle$$
 - $H$ is [[Hamiltonian]], a Hermitian operator
+<br/>
+<br/>
 
 ## Postulate 3
-![[Quantum Measurements]]
+> Quantum measurements are described by a collection $\{M_m\}$, _measurement operators_. These are operators acting on the state space of the system being measured. The index $m$ refers to the measurement outcomes that may occur in the experiment.
+> If the state of the quantum system is $\mid \psi\rangle$ immediately before the measurement then:
+> 1. the probability that result $m$ occurs is  given by:
+> $$p(m)=\langle\psi\mid M_m^\dagger M_m\mid\psi\rangle$$
+> 2. and the state of the system after the measurement is :
+> $${M_m\mid\psi\rangle\over \sqrt{\langle\psi\mid M_m^\dagger M_m\mid\psi\rangle}}$$
+> 3. The measurement operators satisfy the [[Completeness Relation|completeness equation]]:
+> $$\sum_m {M_m^\dagger M_m}=I$$
+
+### Remark:
+- [[Quantum Measurements]]

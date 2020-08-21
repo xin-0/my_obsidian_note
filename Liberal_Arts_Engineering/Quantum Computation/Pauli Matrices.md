@@ -5,3 +5,7 @@ $$\begin{align}
 $X$: bit flip
 $Z$: phase flip
 
+## Properties
+- Pauli Matrices are [[Hermitian]]
+- 
+

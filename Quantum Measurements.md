@@ -1,12 +1,4 @@
-## Postulate
-> Quantum measurements are described by a collection $\{M_m\}$, _measurement operators_. These are operators acting on the state space of the system being measured. The index $m$ refers to the measurement outcomes that may occur in the experiment.
-> If the state of the quantum system is $\mid \psi\rangle$ immediately before the measurement then:
-> 1. the probability that result $m$ occurs is  given by:
-> $$p(m)=\langle\psi\mid M_m^\dagger M_m\mid\psi\rangle$$
-> 2. and the state of the system after the measurement is :
-> $${M_m\mid\psi\rangle\over \sqrt{\langle\psi\mid M_m^\dagger M_m\mid\psi\rangle}}$$
-> 3. The measurement operators satisfy the [[Completeness Relation|completeness equation]]:
-> $$\sum_m {M_m^\dagger M_m}=I$$
+## [[Quantum Mechanics Postulates#Postulate 3|Postulate]]
 
 <br/>
 <br/>
@@ -65,6 +57,14 @@ where $\sigma_1, \sigma_2,\sigma_3$ are [[Pauli Matrices]]
 ##  POVM
 
 Positive Operator-Valued Measure, a math tool. Useful for experiments where the systems are only measured for once and we don't care about the post state.
-_Def:_
-- positive mastrix
-- adds to $I$
+### Definition
+> Suppose a measurement on quantum state $\mid\psi\rangle$ is described by measurement operators $\{M_m\}$. POVM is defined as 
+> $$E_m=M_m^\dagger M_m$$
+> $E_m$ are __POVM elements__. $\{E_m\}$ is POVM.
+> Immediately we have:
+> - $p(m)=\langle\psi\mid E_m\mid\psi\rangle$
+> - $\sum_m E_m=I$
+
+### Remark
+- Only when $M_m=P_m$, i.e. measurement operators are projectors, $E_m$ is the same as measurement operator:
+	- $$E_m=M_m^\dagger M_m=P_m^\dagger P_m=P_m=M_m$$
