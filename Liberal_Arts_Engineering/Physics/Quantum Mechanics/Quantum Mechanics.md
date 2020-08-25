@@ -35,8 +35,6 @@ $$\langle\phi\mid A\mid\phi\rangle=\sum _kr_k\vert\langle\psi_k\mid\phi\rangle\v
 * [[Pauli Matrices]]
 
 ## [[Bloch Sphere]]
-* $\mid\psi\rangle=\cos(\theta)\mid0\rangle+\sin(\theta)e^{i\phi}\mid1\rangle$
-* unitary operations rotate the sphere
 
 
 ## Multi-qubit states & operations

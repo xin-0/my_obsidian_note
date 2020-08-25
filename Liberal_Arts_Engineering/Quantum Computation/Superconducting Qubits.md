@@ -19,9 +19,9 @@ Two parts, ==Non-commute==:
 ### Models:
 - [[Charge Qubit]]
 - flux qubit
-	![[Screen Shot 2020-08-02 at 8.52.17 PM.png]]
+	![[flux_qubit.png]]
 - phase qubit
-	![[Screen Shot 2020-08-02 at 8.52.22 PM.png]]
+	![[phase_qubit.png]]
 - fluxonium
 - ...
 

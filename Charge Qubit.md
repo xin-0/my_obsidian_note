@@ -8,8 +8,8 @@ a type of [[Superconducting Qubits]].
 ## Transmon
 a specific type of charge qubit
 ### Cenral Architect 
-![[Screen Shot 2020-08-03 at 12.35.07 AM.png]]
-![[Screen Shot 2020-08-03 at 12.35.57 AM.png]]
+![[Transmon.png]]
+![[transmon_diagram.png]]
 - a derivative of charge qubits
 - looks like one capacitor + one inductor
 - quantized[[ LC oscillator]], (not exact)

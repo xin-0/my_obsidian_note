@@ -1,6 +1,6 @@
 #Quantum_Mechanic #Model_Reality_Correlation 
 
-## Postulate 1
+## Postulate 1 - State Space
 Key idea: State Space in Math <--> Physical World
 > The __state space__ of an isolated physical system is a Hilbert Space. The system is completely described by state vector, an unit vector in the state space
 
@@ -10,7 +10,7 @@ Key idea: State Space in Math <--> Physical World
 <br/>
 <br/>
 
-## Postulate 2
+## Postulate 2 - Evolution
 Key idea: how quantum mechanical systems evolve in time
 > The evolution of a __closed__ quantum system is described by a __unitary transformation__. If the system is in state $\mid\psi\rangle$ at $T=t_1$ and in state $\mid\psi^{'}\rangle$ at $T=t_2$, then two states are related with an unitary operator $U$ by:
 > $$ \mid\psi^{'}\rangle = U\mid\psi\rangle$$
@@ -29,7 +29,7 @@ __Revied Version__ of Postulate 2: for _continuous time_
 <br/>
 <br/>
 
-## Postulate 3
+## Postulate 3 -  [[Quantum Measurements]]
 > Quantum measurements are described by a collection $\{M_m\}$, _measurement operators_. These are operators acting on the state space of the system being measured. The index $m$ refers to the measurement outcomes that may occur in the experiment.
 > If the state of the quantum system is $\mid \psi\rangle$ immediately before the measurement then:
 > 1. the probability that result $m$ occurs is  given by:
@@ -40,4 +40,11 @@ __Revied Version__ of Postulate 2: for _continuous time_
 > $$\sum_m {M_m^\dagger M_m}=I$$
 
 ### Remark:
-- [[Quantum Measurements]]
+<br/>
+<br/>
+
+## Postulate 4 - Composite System
+> The state space of a composite physical system is the tensor product of the state spaces of the component physical systems. 
+> If we have $n$ systems in states $\mid\psi_i\rangle, i=1,...,n.$ The joint state of the total system is
+> $$\mid\psi_1\rangle\otimes...\otimes\mid\psi_n\rangle$$
+
