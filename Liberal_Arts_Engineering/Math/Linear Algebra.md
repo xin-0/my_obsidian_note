@@ -1,4 +1,4 @@
-#### Vector properties
+	#### Vector properties
 1. commutativity
 2. associativity
 3. distributivityofscalarmultiplication
