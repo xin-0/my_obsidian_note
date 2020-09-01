@@ -1,5 +1,5 @@
 Given:
-* Alice: EPR pair #1, an unkown state $\mid \psi\rangle=\alpha\mid0\rangle+\beta\mid 1 \rangle$
+* Alice: EPR pair #1, an unkown state $\ket \psi=\alpha\ket 0+\beta\ket 1$
 * Bob: EPR pair #2
 * Classical communication between two
 

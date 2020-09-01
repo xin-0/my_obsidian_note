@@ -2,31 +2,31 @@
 -  [[Quantum Mechanics Postulates]]
 # notation and computation
 ## Basic
-$\mid\psi\rangle=v\in\Bbb {C} ^n$, $\mid\phi\rangle=w\in\Bbb {C} ^n$
-- $\langle\psi\mid = \mid\psi\rangle^\dagger=v^\dagger$
-- inner product: $\langle\psi\mid\phi\rangle=v^\dagger w$
-- Measure $\mid\psi\rangle$ in $\mid\phi\rangle$: yields$\mid\phi\rangle$ with probability $\vert \langle\psi\mid\phi\rangle\vert^2$
+$\ket\psi=v\in\Bbb {C} ^n$, $\ket\varphi=w\in\Bbb {C} ^n$
+- $\bra\psi = \ket\psi^\dagger=v^\dagger$
+- inner product: $\braket{\psi\mid\varphi}=v^\dagger w$
+- Measure $\ket\psi$ in $\ket\varphi$: yields$\ket\varphi$ with probability $\vert \braket{\psi\mid\varphi}\vert^2$
 - 
 ## [[Hamiltonian]]
 $\equiv$ __bais__
 Harmonic Oscillator: 
-- $H=\sum_k{E_k\mid\psi_k\rangle\langle\psi_k\mid}$
-- $\langle\psi_j\mid\psi_k\rangle=\delta_{j,k}$ --> Orthonormal
-- $\{\mid\psi_k\rangle\}$ form a basis of infinite dimension $\mid\psi_k\rangle$ -->$\mid k\rangle$
+- $H=\sum_k{E_k\ket{\psi_k}\bra{\psi_k}}$
+- $\braket{\psi_j\mid\psi_k}=\delta_{j,k}$ --> Orthonormal
+- $\{\ket{\psi_k}\}$ form a basis of infinite dimension $\ket{\psi_k}$ -->$\ket k$
 
 Z-basis:
-- $Z=\mid0\rangle\langle0\mid+\mid1\rangle\langle1\mid$
+- $Z=\ket 0 \bra 0+\ket 1 \bra 1$
 
 ## Operations & Observables
 1. logic gates $\equiv$ [[Unitary]] matrices $\equiv$ change of basis:
-$$U=\sum_k{\mid\psi_k\rangle\langle k\mid}$$
+$$U=\sum_k{\ket{\psi_k}\bra k}$$
 
 
 2. readout $\equiv$ measurement operators $\equiv$ [[Hermitian]]
-$$A=\sum_k{r_k\mid\psi_k\rangle\langle \psi_k\mid},\quad r_k\in\Bbb R$$
+$$A=\sum_k{r_k\ket{\psi_k} \bra{\psi_k}},\quad r_k\in\Bbb R$$
 
 3. average experimental outcome $\equiv$ Probability [[Expectation]] $\equiv$ "sandwich" operator
-$$\langle\phi\mid A\mid\phi\rangle=\sum _kr_k\vert\langle\psi_k\mid\phi\rangle\vert^2$$
+$$\bra\phi A \ket\phi=\sum _kr_k\vert\braket{\psi_k\mid\phi}\vert^2$$
 
 ## Some Unitaries
 * $X= \begin{bmatrix}0&1\\1&0\end{bmatrix}$
@@ -44,8 +44,8 @@ $$A\otimes B$$
 - $(A\otimes B)(C\otimes D)=(AC)\otimes(BD)$
 
 ## State Decomposition
-To convert a state $\mid\phi\rangle$ into $\{\mid\psi_k\rangle, k=0,1,...\}$ basis:
-$$\mid\phi\rangle=\sum_k{\langle\psi_k\mid\phi\rangle\mid\psi_k\rangle}$$
+To convert a state $\ket\varphi$ into $\{\ket{\psi_k}, k=0,1,...\}$ basis:
+$$\ket\varphi=\sum_k{\braket{\psi_k\mid\varphi}\ket{\psi_k}}$$
 
  ### Remarks
  - measurement in lab vs measurement in theory

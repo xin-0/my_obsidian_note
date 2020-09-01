@@ -5,13 +5,13 @@
 
 ## Remark
 1. the completeness equation express the fact that:
-	$$1=p(m)=\sum_m{\langle\psi\mid M_m^\dagger M_m\mid\psi\rangle}$$
+	$$1=p(m)=\sum_m{\bra\psi M_m^\dagger M_m\ket\psi}$$
 2. Since a measurement device is a larger quantum mechanical system, some argues that Postulate 3 can be derived from Postualte 2. The [[Quantum Mechanics Unsolved Questions|disagreement]] remains unsettled.
 <br/>
 <br/>
 ## Examples
 1. measurement in computational basis:
-$$M_0=\mid0\rangle\langle0\mid,M_1=\mid1\rangle\langle1\mid$$
+$$M_0=\ket0\bra0,M_1=\ket1\bra1$$
 
 <br/>
 <br/>
@@ -24,11 +24,11 @@ $$M=\sum_m{mP_m}$$
 $P_m:$ projector onto the eigenspace of $M$ with eigenvalue $m$
 $m:$ possible outcomes of the observable
 
-Probability of getting result $m$ by measuring on sate $\mid\psi\rangle$:
-$$p(m)=\langle\psi\mid P_m\mid\psi\rangle$$
+Probability of getting result $m$ by measuring on sate $\ket\psi$:
+$$p(m)=\bra\psi P_m\ket\psi$$
 
 Given that outcome $m$ occured, the state immediately after the measurement is:
-$${P_m\mid\psi\rangle\over \sqrt {p(m)}}$$
+$${P_m\ket\psi\over \sqrt {p(m)}}$$
 
 #### Remark:
 1. When measurement in postulate, in addition to satisfying $\sum_m{M_m^\dagger M_m=I}$, also satisfy that $M_m$ are orthognal projectors, i.e. $M_m$ are Hermitian. Postulate reduce to a projective measurement.
@@ -37,16 +37,16 @@ $${P_m\mid\psi\rangle\over \sqrt {p(m)}}$$
 1. Expectation easily calculate:
 	$$\begin{align} 
   E(M) & = \sum_m{mp(m)} \\
-       & = \sum_m{m\langle\psi\mid P_m\mid\psi\rangle} \\
-	   & = \langle\psi\mid \sum_m mP_m\mid\psi\rangle \\
-	   & = \langle\psi\mid M\mid\psi\rangle
+       & = \sum_m{m\bra\psi P_m\ket\psi} \\
+	   & = \bra\psi \sum_m mP_m\ket\psi \\
+	   & = \bra\psi M\ket\psi
   \end{align}$$
-  	Thus $\langle\psi\mid M\mid\psi\rangle$ is often written as $\langle M\rangle$  
+  Thus $\bra\psi M\ket\psi$ is often written as $\braket M$  
 1. Standard Deviation:
 	Genera Case:
 	$$\begin{align}
-	[\Delta (M)]^2 & = \langle (M-\langle M \rangle)^2\rangle \\
-				   & = \langle M^2 \rangle - \langle M \rangle^2
+	[\Delta (M)]^2 & = \braket {(M-\braket M )^2} \\
+				   & = \braket {M^2}  - \braket M^2
 	\end{align}$$
 #### Spin measurement along axis $\vec v$:
 $\vec v$ is a three-dimensional unit vector, the measurement operator is:
@@ -58,11 +58,11 @@ where $\sigma_1, \sigma_2,\sigma_3$ are [[Pauli Matrices]]
 
 Positive Operator-Valued Measure, a math tool. Useful for experiments where the systems are only measured for once and we don't care about the post state.
 ### Definition
-> Suppose a measurement on quantum state $\mid\psi\rangle$ is described by measurement operators $\{M_m\}$. POVM is defined as 
+> Suppose a measurement on quantum state $\ket\psi$ is described by measurement operators $\{M_m\}$. POVM is defined as 
 > $$E_m=M_m^\dagger M_m$$
 > $E_m$ are __POVM elements__. $\{E_m\}$ is POVM.
 > Immediately we have:
-> - $p(m)=\langle\psi\mid E_m\mid\psi\rangle$
+> - $p(m)=\bra\psi E_m\ket\psi$
 > - $\sum_m E_m=I$
 
 ### Remark
