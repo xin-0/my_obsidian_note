@@ -14,3 +14,11 @@ $$\rho\equiv\sum_i{p_i\ket{\psi_i}\bra{\psi_i}}$$
 		$$\rho_m={M_m\rho M_m^\dagger\over tr(M_m^\dagger M_m\rho)}$$
 		
 # Pure state and mixed state
+A quantum system whose state $\ket \psi$ is known exactly is said to be in a pure state.
+In this case the density operator is simply $\rho = \ket \psi \bra \psi$.
+Otherwise $\rho$ is in a mixed state.
+## pure state
+$tr(\rho^2)=1$
+## mixed state
+$tr(\rho^2)<1$
+
