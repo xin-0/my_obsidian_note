@@ -22,3 +22,6 @@ $tr(\rho^2)=1$
 ## mixed state
 $tr(\rho^2)<1$
 
+# Properties
+## Characterization of density operators
+An operator $\rho$ 
