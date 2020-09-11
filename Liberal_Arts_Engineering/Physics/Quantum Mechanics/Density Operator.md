@@ -57,3 +57,28 @@ Where $u_{ij}$ is a unitary matrix of complex numbers, with indices $i$ and $j$.
 - $\rho=\sum_i{p_i\ket{\psi_i}\bra{\psi_i}}=\sum_j{q_j\ket{\varphi_j}\bra{\varphi_j}}$ for normalized state $\ket{\psi_i},\ket{\varphi_j}$ and probability distribution $p_i,q_j$ if and only if
 	$$\sqrt{p_i}\ket{\psi_i}=\sum_j{u_{ij}\sqrt{q_j}\ket{\varphi_j}}$$
 	for some unitary matrix $u_{ij}$. and we may pad the smaller ensemble with entries having probability zero in order to make the two ensembles the same size.
+	
+	---
+# Reduced Density Operator
+Density operator as a descriptive tool for _sub-systems_.
+## Definition
+Suppose we have physical systems $A$ and $B$, and the density operator describing the composite system is $\rho^{AB}$. The reduced density operator for system $A$ is defined as:
+$$\rho^A\equiv tr_B(\rho^{AB})$$
+where $tr_B$ is [[Trace of Matrix#Partial Trace#Definition|partial trace]] 
+
+## Counter-intuitive Result
+Consider a bell state
+$$\ket \Psi={\ket{00}+\ket{11}\over \sqrt{2}}$$
+The density operator for the two qubit system is
+$$\begin{align}\rho&=\ket \Psi \bra\Psi ={(\ket{00}+\ket{11})(\bra{00}+\bra{11})\over 2}\\ &={\ket{00}\bra{00}+\ket{00}\bra{11}+\ket{11}\bra{00} + \ket{11}\bra{11} \over 2} \end{align}$$
+We can get the reduced density matrix of the sub-system for the first qubit
+$$\begin{align}
+  \rho^1 & =tr_2(\rho) \\
+  		 & ={1\over2}\left[tr_2(\ket{00}\bra{00})+tr_2(\ket{00}\bra{11})+tr_2(\ket{11}\bra{00})+tr_2(\ket{11}\bra{11})\right] \\
+		 & ={1\over2}\left({\ket 0 \bra 0 \braket{0|0}+\ket 0 \bra 1 \braket{1|0} +\ket 1 \bra 0 \braket{0|1}+\ket 1\bra 1 \braket{1|1}}\right) \\
+		 & = { \ket 0 \bra 0 + \ket 1\bra 1 \over 2}
+  \end{align}
+$$
+Surprisingly
+$$tr(\rho^2)=1,tr((\rho^1)^2)<1$$
+It is very interesting to see that the composite system is in pure state which is 'known exactly' whereas the sub-system is in mixed state.
