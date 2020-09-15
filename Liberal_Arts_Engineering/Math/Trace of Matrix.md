@@ -1,5 +1,11 @@
 # Definition
-$$tr(A)\equiv\sum_i A_{ii}$$
+- General:
+	$$tr(A)\equiv\sum_i A_{ii}$$
+
+- in quantum mechanic:
+	$$tr(A) = \sum_n{\braket{n|A|n}}$$
+	where $A$ is an arbitrary operator and the sum is over a set of basis vectors $\{ \ket n \}$
+	This definition is related to the invariance property over different basis
 
 # Properties
 ## 1. Cyclic
@@ -7,12 +13,12 @@ $$tr(ABC)=tr(BCA)=tr(CAB)$$
 
 ## 2. Linear
 $$tr(A+B)=tr(A)+tr(B)$$
-$$tr(\mathit z A)=\mathit z A \qquad \mathit z\in \Bbb C$$
+$$tr(\mathit z A)=\mathit z \cdot tr(A) \qquad \mathit z\in \Bbb C$$
 
 ## 3. Invariance
-Trace is invariant under the unitary similarity transformation: $A\rightarrow UAU^\dagger$:
-$$tr(UAU^\dagger)=tr(U^\dagger UA)=tr(A)$$
-
+- Trace is invariant under the unitary similarity transformation: $A\rightarrow UAU^\dagger$:
+	$$tr(UAU^\dagger)=tr(U^\dagger UA)=tr(A)$$
+- Trace is invariant under change in basis
 ### _Application in [[Quantum Mechanics]]_
 Suppose $\ket \psi$ is a unit vector, use the Gram–Schmidt procedure to extend $\ket \psi$ to an orthomormal basis $\ket i$, which start with $\ket \psi$.
 Then for an arbitrary operator $A$:
