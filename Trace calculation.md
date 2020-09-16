@@ -17,6 +17,7 @@ Expectation value of operators can be expressed in term of projector
 	$(6):$ "definition" of projector, $\ket \psi \bra \psi$ is a projector onto $\ket\psi$
 	$(7):$ definition of [[Trace of Matrix#Definition|trace]]
 
+---
 # Example 2
 express probabilities and overlaps in terms of projector and trace, $\vert\braket{\phi|\psi}\vert^2=tr(\ket \phi \bra \phi P_\psi)=tr(P_\psi\ket \phi \bra \phi)$:
 	$$\begin{align}
@@ -28,3 +29,11 @@ express probabilities and overlaps in terms of projector and trace, $\vert\brake
 	\tag{5}          & = tr(\ket \phi \braket{\phi|\psi}\bra \psi) \\
 	\tag{6}          & = tr(\ket \phi \bra \phi P_\psi)
 	\end{align}$$
+	(1): inserting identity
+	(2): completness relation
+	(3): move constant into summation
+	(4): associativity of scalar
+	(5): definition of trace
+	(6): definition of projector
+
+---
