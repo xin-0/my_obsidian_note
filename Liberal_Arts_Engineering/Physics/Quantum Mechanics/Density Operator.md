@@ -27,10 +27,16 @@ Mathematically equivalent to the description in terms of the [[Quantum Mechanics
 A quantum system whose state $\ket \psi$ is known exactly is said to be in a pure state.
 In this case the density operator is simply $\rho = \ket \psi \bra \psi$.
 Otherwise $\rho$ is in a mixed state.
+## General type of states
+Mixtrue of pure states:
+$$\rho=\sum_{k=1}^N{p_k\ket{\psi_k}\bra{\psi_k}}$$
 ## pure state
-$tr(\rho^2)=1$
+It is when $N=1$, thus we have:
+$$tr(\rho^2)=1$$
 ## mixed state
-$tr(\rho^2)<1$
+
+It is when $N>1$, and thus: 
+$$tr(\rho^2)<1$$
 
 ---
 # Properties
