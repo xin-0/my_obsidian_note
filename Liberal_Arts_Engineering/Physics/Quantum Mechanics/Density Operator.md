@@ -63,7 +63,6 @@ Where $u_{ij}$ is a unitary matrix of complex numbers, with indices $i$ and $j$.
 - $\rho=\sum_i{p_i\ket{\psi_i}\bra{\psi_i}}=\sum_j{q_j\ket{\varphi_j}\bra{\varphi_j}}$ for normalized state $\ket{\psi_i},\ket{\varphi_j}$ and probability distribution $p_i,q_j$ if and only if
 	$$\sqrt{p_i}\ket{\psi_i}=\sum_j{u_{ij}\sqrt{q_j}\ket{\varphi_j}}$$
 	for some unitary matrix $u_{ij}$. and we may pad the smaller ensemble with entries having probability zero in order to make the two ensembles the same size.
-	
 	---
 # Reduced Density Operator
 Density operator as a descriptive tool for _sub-systems_.
