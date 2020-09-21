@@ -3,7 +3,6 @@
 - convenient when state is not completely known
 - definition:
 $$\rho\equiv\sum_i{p_i\ket{\psi_i}\bra{\psi_i}}$$
----
 
 # Reformulated [[Quantum Mechanics Postulates|Postulates]] on Density Matrix
 Mathematically equivalent to the description in terms of the [[Quantum Mechanics Postulates|state vector]]
@@ -22,7 +21,6 @@ Mathematically equivalent to the description in terms of the [[Quantum Mechanics
 		$$\sum_m{M_m^\dagger M_m}=I$$
 4. State Space of a composite physical system
 	$$\otimes_i\rho_i$$
----
 # Pure state and mixed state
 A quantum system whose state $\ket \psi$ is known exactly is said to be in a pure state.
 In this case the density operator is simply $\rho = \ket \psi \bra \psi$.
@@ -38,15 +36,12 @@ $$tr(\rho^2)=1$$
 It is when $N>1$, and thus: 
 $$tr(\rho^2)<1$$
 
----
 # Properties
 ## Characterization of density operators
 ### Theorem
 An operator $\rho$ is the density operator associated to some ensemble $\{p_i, \ket{\psi_i}\}$ if and only if
 1. Trace Condition: $\rho$ has trace equal to one
 2. Positivity Condition: $\rho$ is a positive operator
-
----
 
 # Non-uniqueness of the ensemble
 ==Different ensembles of quantum states may give rise to the same density matrix==
@@ -63,7 +58,7 @@ Where $u_{ij}$ is a unitary matrix of complex numbers, with indices $i$ and $j$.
 - $\rho=\sum_i{p_i\ket{\psi_i}\bra{\psi_i}}=\sum_j{q_j\ket{\varphi_j}\bra{\varphi_j}}$ for normalized state $\ket{\psi_i},\ket{\varphi_j}$ and probability distribution $p_i,q_j$ if and only if
 	$$\sqrt{p_i}\ket{\psi_i}=\sum_j{u_{ij}\sqrt{q_j}\ket{\varphi_j}}$$
 	for some unitary matrix $u_{ij}$. and we may pad the smaller ensemble with entries having probability zero in order to make the two ensembles the same size.
-	---
+
 # Reduced Density Operator
 Density operator as a descriptive tool for _sub-systems_.
 ## Definition
