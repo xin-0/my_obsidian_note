@@ -3,6 +3,7 @@ A matrix whose conjugate transpose is itself, i.e.
 $$H^\dagger=H$$
 
 # Property
+- ==Support==  of a hermitian is the vector space spanned by the eigenvectors of $A$ with non-zero eigenvalues.
 - Diagonal entries are real
 - Hermtian is [[Normal Matrix]]
 - a Hermitian matrix has all real eigenvalues and the orthogonal eigenvectors for distinct eigenvalues.
