@@ -1,5 +1,4 @@
 # General 
----
 a type of [[Superconducting Qubit]].
 ![charge_qubits w20](../../Attachments/charge%20qubits.png)
 
