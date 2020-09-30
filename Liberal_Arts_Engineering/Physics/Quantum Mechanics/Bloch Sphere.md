@@ -1,4 +1,5 @@
 ![[bloch_sphere.jpg]]
 
-* $\ket\psi=\cos(\theta)\ket0+\sin(\theta)e^{i\phi}\ket1$ with: $-{\pi \over 2}\leq\theta \leq{\pi \over 2},\quad 0 \leq\phi \leq 2\pi$
+* $\ket\psi=\cos(\theta)\ket0+\sin(\theta)e^{i\varphi}\ket1$ with: $\theta\in[0,\pi],\quad \varphi\in[0,2\pi]$
+* coressponds to point $(\cos{\varphi}\sin{\theta},\sin{\varphi}\sin{\theta},\cos{\theta})$ on the sphere
 * unitary operations rotate the sphere
