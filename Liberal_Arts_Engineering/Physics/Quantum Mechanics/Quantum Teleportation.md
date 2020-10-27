@@ -7,5 +7,5 @@ Goal:
 Send the quantum state to Bob
 
 Solution (quantum teleportation):
-![[QCQI-1-3-7.png]]
+![[QCQI-1-3-7.png|600]]
 

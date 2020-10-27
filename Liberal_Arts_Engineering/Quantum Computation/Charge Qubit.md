@@ -1,14 +1,14 @@
 # General 
 a type of [[Superconducting Qubit]].
-![charge_qubits w20](../../Attachments/charge%20qubits.png)
+![charge_qubits w20|250](../../Attachments/charge%20qubits.png)
 
 # Derivatives
 ---
 ## Transmon
 a specific type of charge qubit
 ### Cenral Architect 
-![[Transmon.png]]
-![[transmon_diagram.png]]
+![[Transmon.png|300]]
+![[transmon_diagram.png|300]]
 - a derivative of charge qubits
 - looks like one capacitor + one inductor
 - quantized[[ LC oscillator]], (not exact)
