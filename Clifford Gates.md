@@ -5,7 +5,8 @@
 >Unitary matrix that transform tensor product of Paulis into other tensor product of Paulis.
 ### example
 CNOT:
-$$CNOT_{j,k}(X\otimes I)CNOT_{j,k}=X\otimes X$$
+- $CNOT_{j,k}(X\otimes I)CNOT_{j,k}=X\otimes X$
+- $CNOT_{j,k}(I\otimes Z)CNOT_{j,k}=Z\otimes Z$
 
 # Non-Clifford Gates
 
