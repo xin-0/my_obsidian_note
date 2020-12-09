@@ -25,3 +25,7 @@ Then we get two identities:
   
  ### remark
 - $Y=(HSX)Z(HSX)^\dagger=HSXZXS^\dagger H=-HSZS^\dagger H$
+
+## Hermitian generator
+- $\{\sigma_0, \sigma_x, \sigma_y, \sigma_z\}$ span $2\times2$ hermitian space
+- $$\bigotimes_{i=1}^n{\sigma_{c(i)}},\quad c(i)\in\{0,x,y,z\}$$span $2^n\times2^n$ hermitian space
