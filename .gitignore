@@ -1,3 +1,4 @@
 #ignore obsidian files and trash
-*.obsidian
+.obsidian/*
+!.obsidian/themes/
 *.trash
