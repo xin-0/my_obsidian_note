@@ -1,4 +1,5 @@
 #ignore obsidian files and trash
+#parse the rule line by line i.e. order matters
 .obsidian/*
 !.obsidian/themes/
 *.trash
