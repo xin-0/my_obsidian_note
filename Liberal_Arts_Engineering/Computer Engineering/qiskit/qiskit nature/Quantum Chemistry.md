@@ -1,5 +1,8 @@
-## Construct Hamiltonian
-### Molecular Hamiltonians
+# Construct Hamiltonian
+## Molecular Hamiltonians
+Our goal is to transfer Hamiltonian into a form that can be represented by qubits. Then ready to be simulated and solved using qunatum computer. Basically there're two ways, first quantization and second quantization.
+
+## First Quantization
 $$\begin{align}
 H &= -\sum_{i=1}^N{{1\over 2}\nabla^2_i}
     -\sum_{A=1}^M{{1\over 2M_A}\nabla^2_A} 
@@ -17,34 +20,47 @@ Usually we are interested in the ground state $\ket\psi$ for the above hamiltoni
 
 Knowing $E_0$ enables us to know reaction rate, etc for designing new drugs and materials.
 
-#### Born–Oppenheimer approximation
-One way to solve the question is Born–Oppenheimer approximation:
+### Solve for $E_0$: Born–Oppenheimer approximation
+One way to solve the question is [[Born–Oppenheimer approximation]]:
 > It assumes the nucleai are fixed then in $H$
 > $$\text{Nuclear KE=0}$$ $$\text{N-N coulomb = energy shift}$$
 
 This method reduce the problem into "Problem of interacting electron" (still exponentially hard)
+### Modeling 
+### Distinguishability
+Qubits are distinguishable: $$\ket\psi=\ket {\chi_1}_1\ket {\chi_2}_2$$
+ - qubit 1 in $\chi_1$ state
+ - qubit 2 in $\chi_2$ state
 
-#### Distinguishability
-- Qubits are distinguishable: $$\ket\psi=\ket {\chi_1}_1\ket {\chi_2}_2$$
-	- qubit 1 in $\chi_1$ state
-	- qubit 2 in $\chi_2$ state
-- Electrons (Fermions) are indistinguishable particles. $$\ket{\psi}={1\over\sqrt{2}}(\ket {\chi_1}_1\ket {\chi_2}_2-\ket {\chi_2}_1\ket {\chi_1}_2)$$
-	- always cannot tell a certain electron is in certain state
-	- anti-symmetric "$-$": means if we exchange Particle $1\leftrightarrow 2$ $$\ket\psi\to-\ket\psi$$this is true for all fermions.
-		- For $N$ fermions $$\ket\psi={1\over\sqrt{N!}}\begin{vmatrix}\ket{\chi_1}_1&\cdots & \ket{\chi_1}_N \\
+Whereas, electrons (Fermions) are **indistinguishable** particles. $$\ket{\psi}={1\over\sqrt{2}}(\ket {\chi_1}_1\ket {\chi_2}_2-\ket {\chi_2}_1\ket {\chi_1}_2)$$
+ - always cannot tell a certain electron is in certain state
+ - anti-symmetric "$-$": means if we exchange Particle $1\leftrightarrow 2$ $$\ket\psi\to-\ket\psi$$this is true for all fermions.
+
+For $N$ fermions 
+$$\ket\psi={1\over\sqrt{N!}}\begin{vmatrix}\ket{\chi_1}_1&\cdots & \ket{\chi_1}_N \\
 		\vdots & \ddots & \vdots \\
 		\ket{\chi_1}_N & \cdots & \ket{\chi_N}_N
-		\end{vmatrix}$$The determinant above is called "Slater Determinant"
+		\end{vmatrix}$$
+The determinant above is called [[Slater Determinant]]. Such notation is not very handy. We define an operator that capture the antisymmetric nature of fermion: 
+$$\ket\psi=\mathcal{A}\ket{\chi_1\chi_2\cdots\chi_N}$$
+$\mathcal{A}$ is called a [[antisymmetrizer]].
 
+### Fock Space
+[[Fock Space]] of N particles is the direct sum over all Hilbert Spaces of $M$ particles where $0\le M\le N$.
+There are total $2^N$ number of states.
 
-### Second Quantization Notation
+## Second Quantization Notation
+The above Hamiltonian is written in *first quantization* form. We can also write the same Hamiltonian in the so-called *second quantization* form, that is defined as a weighted sum of **creation** and **annihilation** operator products
+$$\hat H=\sum_{pq}{h_{pq}\hat{a}^\dagger_p\hat{a}_q}+{1\over 2}\sum_{pqrs}{g_{pqrs}\hat{a}^\dagger_p\hat{a}^\dagger_q\hat{a}_r\hat{a}_s}$$
+where $h_{pq}$ is one-body integral and $g_{pqrs}$ is two-body integral.
 
-### Fermion to qubit mappings
+The advantage of second quantization is to enable us to write both operators and states in *creation* and *annihilation* operators; thus the system's wave function can be effectively represented as an **occupation number vector**.
+## Fermion to qubit mappings
 
-## Variational Quantum Algorithms
+# Variational Quantum Algorithms
 
-### why works
+## why works
 
-### popular variational wavefuntions
+## popular variational wavefuntions
 
 ### open challenges
