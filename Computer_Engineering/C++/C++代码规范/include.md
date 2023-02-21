@@ -57,18 +57,28 @@ variables and header files that only used or required by xxxx.c/cpp file should 
 ## to avoid multiple include
 
 ```cpp
-#ifdef
-#define
+#ifdef XXXX
+#define XXXX
 
 // code
 
 #endif
 
 ```
+  
+## check pointer
+  
+In a function, before working on a pointer, always check that it is not null.
 
 
+## variable initialization
 
+always initialize on declaration
+  
 
+## use macro for constant
+  
+Almost always use macro when need to use some constants for better readability.
 
 
 
